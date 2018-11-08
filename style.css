@@ -174,13 +174,9 @@ input:-webkit-autofill:focus {
 .sky-bg {
     background: #75cbe7;
     background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: rgba(0,0,0,0.7);
+    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     color: #ffffff;
-}
-
-.sky-bg1 {
-    background: #000000 url('images/sec-bg-02.jpg') no-repeat scroll center center / cover;
 }
 
 .gray-bg {
@@ -361,7 +357,7 @@ input:-webkit-autofill:focus {
 }
 
 .mainmenu-area.affix {
-    background-color: #cc9d0c;
+    background-color: #138fc2;
 }
 
 
@@ -372,15 +368,11 @@ input:-webkit-autofill:focus {
 
 .client-area,
 .header-area {
-    background: #000000 url('images/intro-bg-01.jpg') no-repeat scroll center center / cover;
-}
-
-.client-area1 {
-    background: #000000 url('images/intro-bg-05.jpg') no-repeat scroll center center / cover;
+    background: #000000 url('images/parallax-2.jpg') no-repeat scroll center center / cover;
 }
 
 .anlge-bg {
-    background: url('') no-repeat scroll center bottom -120px / 100% auto;
+    background: url('images/angle-bg.png') no-repeat scroll center bottom -120px / 100% auto;
 }
 
 .overlay {
@@ -400,12 +392,6 @@ input:-webkit-autofill:focus {
 .header-text h2 {
     margin-bottom: 20px;
     font-size: 40px;
-    color: #ffffff;
-
-}
-
-.header-text p {
-    color: #ffffff;
 }
 
 .header-text .button {
@@ -612,7 +598,7 @@ input:-webkit-autofill:focus {
 ***/
 
 .testimonial-area {
-    background: url('images/info-panel-bg1.jpg') no-repeat scroll center center / cover;
+    background: url('images/parallax-7.jpg') no-repeat scroll center center / cover;
     position: relative;
     color: #ffffff;
 }
@@ -628,7 +614,7 @@ input:-webkit-autofill:focus {
 .testimonial .testimonial-photo {
     margin-bottom: 20px;
     display: inline-block;
-    /*margin-right: 30px;*/
+    margin-right: 30px;
     border-radius: 50%;
     -webkit-box-shadow: 5px 10px 30px -10px rgba(255, 255, 255, 0.5);
     box-shadow: 5px 10px 30px -10px rgba(255, 255, 255, 0.5);
@@ -656,19 +642,7 @@ input:-webkit-autofill:focus {
 ***/
 
 .price-area {
-    background: url('images/info-panel-bg2.jpg') no-repeat scroll center center / cover
-}
-
-.price-area p {
-    color: #ffffff;
-}
-
-.price-area li:first-child {
-    font-size: 2.5rem;
-}
-
-.price-area h2 {
-    color: #ffffff;
+    background: url('images/parallax-6.jpg') no-repeat scroll center center / cover
 }
 
 .price-table h3 {
@@ -895,7 +869,7 @@ preloader
     height: 100%;
     background: #75cbe7;
     background: -webkit-gradient(linear, left top, left bottom, from(#75cbe7), to(#138fc2));
-    background: linear-gradient(to bottom, #cc9d0c 0%, #281f03 100%);
+    background: linear-gradient(to bottom, #75cbe7 0%, #138fc2 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#75cbe7', endColorstr='#138fc2', GradientType=0);
     z-index: 99999999999;
 }
