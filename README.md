@@ -1,1 +1,1 @@
-# barbershop
+# https://vandywiranata.github.io/Barbershop/
