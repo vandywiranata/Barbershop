@@ -734,7 +734,7 @@
                         </address>
                     </div>
                     <div class="col-xs-12 col-md-8">
-                        <form action="process.php" id="contact-form" method="post" class="contact-form">
+                        <form action="output.php" id="" method="post" class="contact-form">
                             <div class="form-double">
                                 <input type="text" id="form-fname" name="form-fname" placeholder="First name" class="form-control" required="required">
                                 <input type="text" id="form-lname" name="form-lname" class="form-control" placeholder="Last name" required="required">
@@ -748,7 +748,7 @@
                             </div>
                             <div>
                                 <label>Choose Time</label>
-                                <select id="form-date" name="form-date" class="form-control" placeholder="" required="required" class="form-control">
+                                <select id="form-time" name="form-time" class="form-control" placeholder="" required="required" class="form-control">
                                   <option value="" selected disabled>-- Select time --</option>
                                   <option value="10.00">10:00</option>
                                   <option value="10.30">10:30</option>
@@ -770,9 +770,9 @@
                           </div>
                           <div>
                             <label>Booking Information (Optional)</label>
-                            <textarea name="message" id="form-message" name="form-message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
+                            <textarea name="message" id="form-message" name="message" rows="5" class="form-control" placeholder="Your message" required="required"></textarea>
                         </div>
-                        <button type="submit" name="submit" class="button">Request Booking</button>
+                        <input type="submit" name="registrasi" class="button" value="Request Booking"></input>
                     </form>
                 </div>
             </div>
